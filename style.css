@@ -1,0 +1,324 @@
+h1 {
+    font-size: 35px;
+}
+h2 {
+    margin-top: -28px;
+    font-size: 10px;
+    color:gray;
+}
+body {
+    font-family: "SUSE Mono", sans-serif;
+    font-style: normal;
+}
+
+#c {
+    text-align: center;
+}
+
+#back {
+    text-align: center;
+    position: fixed;
+    border: white solid 1px;
+    border-radius: 7px;
+    font-size: 26px;
+    width: 140px;
+    height: 40px;
+    background: black;
+    color: white;
+}
+
+#anon {
+    text-align: center;
+    position: fixed;
+    border: white solid 1px;
+    border-radius: 7px;
+    font-size: 26px;
+    width: fit-content;
+    height: fit-content;
+    background: black;
+    color: white;
+    margin-left: 83%
+}
+
+#log, #prof {
+    text-align: center;
+    position: fixed;
+    margin-top: -53px;
+    border: white solid 1px;
+    border-radius: 7px;
+    font-size: 26px;
+    width: fit-content;
+    height: 40px;
+    background: black;
+    color: white;
+}
+
+#log:hover, #prof:hover, #back:hover,#izm:hover, #sendChange:hover, #copyKey:hover, #exit:hover, #snd_v:hover {
+    color:black;
+    background-color: white;
+    border: black 1px solid;
+}
+#blok {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+    width: 300px;
+    height: 350px;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+
+.lp {
+    font-size: 15px;
+    height: 22px;
+    margin-top: 5px;
+    text-align: center;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+#auth, #authkey {
+    font-size: 14px;
+    border: black 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 5px;
+    height: 22px;
+}
+#auth:hover, #authkey:hover {
+    color: white;
+    background-color: black;
+    border: solid white 1px;
+}
+
+.dataChange {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px black solid;
+    height: 230px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#copyKey {
+    position: fixed;
+    color: white;
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height: 30px;
+}
+
+input {
+
+    text-align: center;
+}
+
+.chan {
+    border: 1px black solid;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#izm {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: white 1px solid;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#sendChange {
+    margin-top: 5px;
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 5px;
+    color: white;
+    height: fit-content;
+    padding: 4px;
+}
+
+#shifr {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px black solid;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: -1px;
+    margin-right: -3px;
+    border-radius: 10px;
+
+}
+#shifr:checked {
+    background-color: black;
+}
+
+#searchUs {
+    border: black 1px solid;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.usli {
+    background: white;
+    color:black;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: -39px;
+
+}
+.usli:hover {
+    background-color: black;
+    border: 1px white solid;
+    color: white;
+}
+
+.UsRes {
+    list-style: none;
+    width: 207px;
+    height: fit-content;
+    top: 100%;
+}
+
+#sms_n, #snd_n {
+    visibility: collapse;
+}
+#snd_v {
+    visibility: visible;
+    top: 95%;
+    height: fit-content;
+    font-size: 20px;
+    left: 64.5%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 0.5px white solid;
+    border-radius: 5px;
+    padding: 2px;
+}
+#sms_v {
+    visibility: visible;
+    top: 95%;
+    border: 1px black solid;
+    border-radius: 5px;
+    text-align: center;
+    width: 500px;
+    height: fit-content;
+    font-size: 20px;
+    
+}
+
+#to_us {
+    position: absolute;
+    text-align: center;
+    margin-top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    border: 1px black solid;
+    padding: 3px;
+    width: fit-content;
+    border-radius: 5px;
+}
+#exit {
+    position: absolute;
+    height: fit-content;
+    font-size: 26px;
+    height: 40px;
+    margin-top: -53px;
+    border: 1px white solid;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    left: 95%;
+}
+
+#chatPlace_n {
+    visibility: collapse;
+}
+#chatPlace_v {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.chats {
+    list-style: none;
+}
+
+.tableUser {
+    background-color: white;
+    width: 243px;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: -40px;
+    height: 35px;
+    text-align: center;
+    font-size: 25px;
+}
+.tableUser:hover {
+    background-color: black;
+    border: 1px white solid;
+    color: white;
+}
+
+#leftPanel {
+    width: 249px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+#mainPlace {
+    margin-left: 265px;
+    align-items: center;
+}
+
+.msg, .msg_my {
+    border: 1px white solid;
+    background: black;
+    color: white;
+    width: fit-content;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 11px;
+    margin-right: auto;
+}
+
+
+.bottomJopa {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.msg {
+    align-self: flex-start;
+    margin-bottom: 3px;
+    float: left;
+
+}
+
+.msg_my {
+    align-self: flex-end;
+    margin-bottom: 3px;
+}

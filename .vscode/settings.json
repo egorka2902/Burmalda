@@ -1,0 +1,16 @@
+{
+  "go.goroot": "C:\\Program Files\\Go",
+  "go.gopath": "C:\\Users\\GOYDA\\go",
+  "go.toolsManagement.autoUpdate": true,
+  "go.useLanguageServer": true,
+  "go.formatTool": "goimports",
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "gopls": {
+    "ui.semanticTokens": true
+  }
+}
